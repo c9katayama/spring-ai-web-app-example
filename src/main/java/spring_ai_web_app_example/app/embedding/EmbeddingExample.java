@@ -32,6 +32,8 @@ public class EmbeddingExample implements CommandLineRunner {
 
 		float[] embed = embeddingModel.embed("Embeddingする対象のテキスト");
 		System.out.println(embed.length);
-		System.out.println(embed);
+		for(int i = 0;i < embed.length;i++) {
+			System.out.print(embed[i]);
+		}
 	}
 }
