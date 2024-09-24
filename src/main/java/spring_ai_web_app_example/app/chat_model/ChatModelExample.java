@@ -1,4 +1,4 @@
-package spring_ai_web_app_example.app;
+package spring_ai_web_app_example.app.chat_model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,6 +58,7 @@ public class ChatModelExample implements CommandLineRunner {
 			AssistantMessage assistantMessage = response.getResult().getOutput();
 			System.out.println(assistantMessage.getContent());
 		}
+
 		System.exit(0);
 	}
 }

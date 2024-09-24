@@ -1,4 +1,4 @@
-package spring_ai_web_app_example.app;
+package spring_ai_web_app_example.app.chat_client;
 
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -58,6 +58,7 @@ public class ChatClientExample implements CommandLineRunner {
 			String result = call.contents().stream().collect(Collectors.joining());
 			System.out.println(result);
 		}
+
 		System.exit(0);
 	}
 }

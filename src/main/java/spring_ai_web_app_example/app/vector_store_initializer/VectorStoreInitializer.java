@@ -1,4 +1,4 @@
-package spring_ai_web_app_example.app;
+package spring_ai_web_app_example.app.vector_store_initializer;
 
 import java.io.IOException;
 import java.util.List;
@@ -69,5 +69,7 @@ public class VectorStoreInitializer implements CommandLineRunner {
 		if (vectorStore instanceof SimpleVectorStore) {
 			((SimpleVectorStore) vectorStore).save(CommonConfig.VECTOR_STORE_FILE);
 		}
+
+		System.exit(0);
 	}
 }

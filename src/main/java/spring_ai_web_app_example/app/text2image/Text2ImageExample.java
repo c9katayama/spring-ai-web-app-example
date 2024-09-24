@@ -1,4 +1,4 @@
-package spring_ai_web_app_example.app;
+package spring_ai_web_app_example.app.text2image;
 
 import org.springframework.ai.image.Image;
 import org.springframework.ai.image.ImageModel;
@@ -46,6 +46,7 @@ public class Text2ImageExample implements CommandLineRunner {
 			Image image = e.getOutput();
 			System.out.println(image.getUrl());// 画像URL
 		});
+
 		System.exit(0);
 	}
 }
