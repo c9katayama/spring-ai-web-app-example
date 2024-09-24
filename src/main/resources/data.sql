@@ -1,0 +1,2 @@
+insert into application_user (version, user_id, name,hashed_password) values (1, 'admin','[Admin]','$2a$10$jpLNVNeA7Ar/ZQ2DKbKCm.MuT2ESe.Qop96jipKMq7RaUgCoQedV.')
+insert into user_roles (user_user_id, roles) values ('admin', 'ADMIN')

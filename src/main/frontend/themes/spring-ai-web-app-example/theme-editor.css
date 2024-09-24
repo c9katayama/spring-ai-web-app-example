@@ -1,0 +1,18 @@
+/*
+ * This file has been created by the Vaadin Theme Editor. Please note that
+ * manual changes to individual CSS properties may be overwritten by the theme editor.
+ */
+header {
+  background-color:var(--lumo-primary-color);
+  color:rgba(255,255,255,1);
+}
+
+html {
+  --lumo-primary-color-10pct:rgba(33,25,87,0.1);
+  --lumo-primary-color-50pct:rgba(33,25,87,0.5);
+  --lumo-primary-color:rgba(33,25,87,1);
+}
+
+vaadin-app-layout { background-color:rgba(254,252,251,1); }
+
+vaadin-app-layout::part(navbar) { background-color:rgba(254,252,251,1); }
